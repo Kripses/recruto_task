@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    get request
+{% endblock %}
+
+{% block body %}
+    <h1>Hellow {{ request.GET.name }}! {{ request.GET.message }}</h1>
+{% endblock %}
